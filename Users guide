@@ -2,5 +2,5 @@ This is model A(the S-wave velocities increase with depth) in the manuscript.
 
 1.Using forward.p to get the theoretical dispersion curve, get the file theoretical_dispersion.mat.
 2.Using MOPSO.m to inverse the dispersion data,get some inversion results.Selecting the most symmetrical model.    The file has the data we got before[Symmetric_model((I got it before)).mat].
-3.Using Average_results.m to to average the obtained data.Using the average result as the final inversion result.
+3.Using Average_results.m to to average the obtained data.Using the average result as the final inversion result.    The array extracted from Symmetric_model.mat is manually extracted from the results we get from MOPSO.m.
 4.Ploting of inversion results obtained  dispersion_compare.m and plot_profiles.m.
